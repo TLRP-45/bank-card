@@ -1,0 +1,17 @@
+<div *ngFor="let tarjeta of tarjetas">
+    <div id="info">
+        <span>ID: {{tarjeta.id}} </span><br>
+        <span>Dueño: {{tarjeta.cardOwner}}</span><br>
+        <span>Numero Tarjeta: {{tarjeta.cardNumber}}</span><br>
+        <span>Fecha de Expiración: {{tarjeta.expirationDate}}</span><br>
+        <span>CCV: {{tarjeta.ccv}}</span>
+    </div>
+    <div id="card">
+        <img id="bankImg" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Animal_Crossing_Leaf.svg">
+        <label id="bankNam">Bank Nook</label>
+        <label id="bankCard">Banking Card</label>
+        <span id="cardNum">{{tarjeta.cardNumber}}</span>
+        <span id="cardNam">{{tarjeta.cardOwner}}</span>
+        <span id="cardExDate">VALIDO HASTA: {{tarjeta.expirationDate}}</span>
+    </div>
+</div>
