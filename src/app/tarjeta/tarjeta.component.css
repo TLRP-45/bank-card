@@ -1,7 +1,7 @@
 #card{
     display: block;
     margin: auto;
-    background: repeating-linear-gradient(0deg,rgba(37, 77, 66, 0.1) 1px,rgba(12, 143, 112, 0.2) 3px), linear-gradient(#20443a,#0c8f70);
+    background: repeating-linear-gradient(0deg,rgba(236, 0, 0, 0.1) 1px,rgba(118, 0, 0, 0.2) 3px), linear-gradient(#760000,#ec0000);
     position: relative; 
     width: 500px;
     height: 300px;
@@ -26,9 +26,10 @@
 #bankImg {
     display: block;
     filter:brightness(100);
-    transform: scale(0.625);
+    transform: scale(0.25);
     position: absolute;
-    right: 70%;
+    right: 42.5%;
+    top: -40%;
 }
 
 #bankNam {
